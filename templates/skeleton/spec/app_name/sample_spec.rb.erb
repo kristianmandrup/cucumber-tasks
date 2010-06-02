@@ -1,0 +1,16 @@
+require 'require-me'
+Folder.require_spec 'spec_helper', __FILE__
+
+module Hello
+  describe Basic do
+    context "basic" do
+      let(:basic)  { '' }
+    
+      describe "#basic" do      
+        it "should not be implemented" do
+          fail "not implemented"
+        end      
+      end 
+    end  
+  end
+end

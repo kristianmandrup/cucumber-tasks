@@ -1,0 +1,11 @@
+Description:
+    Sets up Cucumber in your Ruby project. 
+    
+    This also generates the necessary files in the features directory.
+    
+    Also see the feature generator, which you can use to generate skeletons
+    for new features.
+    
+Examples (Rails 3):
+    `thor cucumber:skeleton`
+

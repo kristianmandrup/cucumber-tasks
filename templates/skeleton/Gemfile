@@ -1,0 +1,6 @@
+source :gemcutter
+
+group :test do
+  gem "rspec",                ">=2.0.0.beta.9"
+  gem "cucumber",             ">=0.7.3"
+end
